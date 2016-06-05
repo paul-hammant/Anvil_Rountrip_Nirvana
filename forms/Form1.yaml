@@ -1,0 +1,27 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{"SEZJII":4,"TJWKDX":4,"OUMFXU":4}'}
+components:
+- type: Label
+  properties: {width: default, align: left, foreground: '', visible: true, text: 'What''s
+      your name?', font_size: 14, font: '', spacing_above: small, spacing_below: small,
+    italic: false, background: '', bold: false, underline: false}
+  name: label_1
+  layout_properties: {grid_position: 'WZBESQ,SEZJII'}
+- type: TextBox
+  properties: {}
+  name: txt_name
+  layout_properties: {grid_position: 'WZBESQ,TJWKDX'}
+- type: Button
+  properties: {width: default, align: center, enabled: true, foreground: '', visible: true,
+    text: Say Hello, font_size: 14, font: '', spacing_above: small, spacing_below: small,
+    italic: false, background: '', bold: false, underline: false}
+  name: btn_say_hello
+  layout_properties: {grid_position: 'WZBESQ,OUMFXU'}
+  event_bindings: {click: btn_say_hello_click}
+- type: Label
+  properties: {width: default, align: left, foreground: '', visible: true, text: '',
+    font_size: 16, font: '', spacing_above: small, spacing_below: small, italic: false,
+    background: '', bold: true, underline: false}
+  name: lbl_hello
+  layout_properties: {grid_position: 'MLDDNG,TMCUHE'}
