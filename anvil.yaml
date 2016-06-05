@@ -2,4 +2,7 @@ $promise: {}
 name: HelloWorld1
 startup_form: Form1
 renamed: true
-services: []
+services:
+- source: /runtime/services/google.yml
+  client_config: {}
+  server_config: {}
