@@ -12,8 +12,4 @@ class Form1(Form1Template):
 
   def btn_say_hello_click(self, sender, **event_args):
     # This function gets called when the button "hello_btn" gets clicked
-    self.lbl_hello.text = "Hello, " + self.txt_name.text + "!"
-    
-    
-    
-    
+    self.lbl_hello.text = "Hello, how are you? " + self.txt_name.text
